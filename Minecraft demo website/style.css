@@ -1,0 +1,17 @@
+body {
+    background-color: #5b7c3d;
+    display: flex;
+    justify-content: center;
+    color: #ffd700;
+    text-align: center;
+    font-family: cursive;
+}
+
+#maindiv{
+    width: 600px;
+    background-color: #654321;
+}
+
+.boos{
+    display: block;
+}
