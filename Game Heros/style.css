@@ -23,15 +23,21 @@ body{
     background-color:rgb(65, 65, 65);;
     width: 100%;
     left: 0;
-    bottom: 0;
-    height: 80%;
+    bottom: 50px;
+    height: 70%;
 }
 
 .flex-container > div{
-    background-color: #f1f1f1;
-    margin: 10px;
+    background-color: rgb(85, 85, 85);
+    margin: 40px;
     padding: 20px;
     font-size: 30px;
-    width: 25%;
+    width: 400px;
     border-radius: 15px;
+    position: relative;
+    left: 175px;
+}
+
+.images{
+    width: 100%;
 }
