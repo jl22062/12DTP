@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game heros</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
 </head>
 <body>
     <header class="header">
@@ -13,17 +16,34 @@
         </div>
     </header>
     <main>
-        <div class="flex-container">
-            <div>
-                <img class="images" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Minecraft_Wiki_2023.png" alt="Minecraft"> 
-            </div>
-            <div>
-                <img class="images" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Rocket_League_coverart.jpg" alt="Rocket League"> 
-            </div>
-            <div>
-                <img class="images" src="https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg" alt="Super Mario Odyssey"> 
-            </div>
-        </div>
+        <section class="flex-container">
+            <article>
+                <a data-fancybox data-src="img/m1.jpg" data-caption="Minecraft 2025">
+                    <img class="images imgRounding" src="img/m1-thumbnail.jpg" alt="Minecraft">
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                <a href="img/m2.jpg" data-fancybox="minecraft-gallery" data-caption="Minecraft 2025"></a>
+                <a href="img/m3.jpg" data-fancybox="minecraft-gallery" data-caption="Minecraft 2025"></a>
+                <a href="img/m4.jpg" data-fancybox="minecraft-gallery" data-caption="Minecraft 2025"></a>
+                <a href="img/m5.jpg" data-fancybox="minecraft-gallery" data-caption="Minecraft 2025"></a>
+                <a href="img/m6.jpg" data-fancybox="minecraft-gallery" data-caption="Minecraft 2025"></a>
+                <h2 class="gameTitle">Minecraft</h2>
+            </article>
+            <article>
+                <img class="images imgRounding" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Rocket_League_coverart.jpg" alt="Rocket League"> 
+                <h2 class="gameTitle">Rocket League</h2>
+            </article>
+            <article>
+                <img class="images imgRounding" src="https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg" alt="Super Mario Odyssey"> 
+                <h2 class="gameTitle">Super Mario Odyssey</h2>
+            </article>
+        </section>
     </main>
 </body>
 </html>

@@ -27,7 +27,7 @@ body{
     height: 70%;
 }
 
-.flex-container > div{
+.flex-container > article{
     background-color: rgb(85, 85, 85);
     margin: 40px;
     padding: 20px;
@@ -38,6 +38,17 @@ body{
     left: 175px;
 }
 
+.imgRounding{
+    border-radius: 10px;
+}
 .images{
     width: 100%;
+}
+
+.gameTitle{
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: rgb(255, 196, 0);
+    font-family: Arial, Helvetica, sans-serif;
 }
