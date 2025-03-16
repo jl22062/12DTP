@@ -7,5 +7,5 @@ This is a repository containing everything 12 DTP related.
 
 - Minecraft demo Website
 - Smiling dogs demo website
-- N/A
-- N/A
+- Semantic-tags demo website
+- Game Heros demo website
